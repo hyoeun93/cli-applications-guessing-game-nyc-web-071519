@@ -1,5 +1,5 @@
 # Code your solution here!
-def run_guessing_game(num)
+def run_guessing_game
   puts "/Guess a number betwen 1 and 6."
 	roll = 1+rand(6)
 	user_input = gets.chomp.to_s
