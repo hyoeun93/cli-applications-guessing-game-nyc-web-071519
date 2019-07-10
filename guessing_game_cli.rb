@@ -2,15 +2,16 @@
 def run_guessing_game
   
 	roll = 1 + rand(6)
-	user_input = gets.chomp
 	
-    if user_input == roll 
-    	return "You guessed the correct number!"
+	input = gets.chomp
+	
+    if input == roll 
+    	puts "You guessed the correct number!"
     	
-    elsif user_input != roll
-    	return "The computer guessed #{roll}."
+    elsif input != roll
+    	puts "The computer guessed #{roll}."
     	
-    else user_input == "exit"
+    else input == "exit"
       puts "Goodbye!"
     
     end 
