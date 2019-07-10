@@ -11,7 +11,7 @@ def run_guessing_game
     elsif input != roll
     	puts "Sorry! The computer guessed #{roll}."
     	
-    else input == roll
+    else 
       puts "You guessed the correct number!"
     
     end 
