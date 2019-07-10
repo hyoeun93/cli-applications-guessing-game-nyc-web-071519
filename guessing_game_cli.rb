@@ -1,2 +1,2 @@
 # Code your solution here!
-def run_guessing_game
+ruby bin/guessing_game_cli
